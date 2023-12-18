@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 30px;
+  min-width: 212px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+main {
+  position: absolute;
+  top: 0;
+  left: 270;
+}
+
+header {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: Verdana;
+  border-bottom: 1px solid rgb(218, 143, 143);
+}
+
+section {
+  border: 2px solid rgb(218, 143, 143, 10);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: rgb(253, 245, 245, 0.8); 
+  padding: 9px;
+}
+
+p {
+  font-size: 18px;
+  overflow: auto;
+}
+
+code {
+  width: 100%;
+  display: block;
+  font-size: 16px;
+  padding: 7px;
+  border-radius: 2px;
+  border: 1px solid pink;
+  background-color: rgb(240, 205, 205);
+}
+
+div.div-code {
+  padding: 0 10px;
+}
+
+#navbar {
+  min-width: 290px;
+  max-width: 290px;
+  margin-left: -24px;
+  margin-top: -10;
+  border: 2px solid rgb(158, 60, 60);
+  font-weight: normal;
+  overflow: auto;  
+  padding-right: 0;
+}
+
+#navbar header {
+  font-size: 21px;
+  border-bottom: 2px solid rgb(218, 143, 143);
+  margin-bottom: 2px;
+  padding-left: 5px;
+}
+
+.nav-link {
+  font-size: 17px;
+  font-family: Verdana;
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding-left: 8px;
+  padding-top: 12px;
+  height: 50px;
+  width: 99%;
+}
+
+.nav-link:hover {
+  background: rgb(243, 183, 193, 0.5);
+  border-radius: 2px;
+  color: red;
+}
+
+@media (max-width: 400px) and (min-width: 0px){
+
+  body {
+    min-width: 200px;
+    padding: auto;
+  }
+  main {
+    position: relative;
+    left: 0;
+    margin: 0;
+  }
+  body {
+    margin-right: 0;
+  }
+  #navbar {
+    position: relative;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+
+}
